@@ -31,13 +31,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="pt-BR">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tela de login</title>
+    <title> Página de Login</title>
 </head>
 <body>
+
+<h2>Login</h2>
+<form method="post">
+    <input type="text" name="usuario" placeholder="Nome de Usuário" requirede> <br>
+    <input type="password" name="senha" placeholder="Senha" required> <br>
+    <input type="submit" value="entrar">
+</form>
+
     
 </body>
 </html>
